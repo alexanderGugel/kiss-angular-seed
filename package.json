@@ -1,9 +1,22 @@
 {
-  "name": "angularjs-seed",
-  "description": "A starter project for AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
+  "name": "kiss-angular-seed",
+  "private": true,
+  "description": "Promoting bad parctices in software engineering",
+  "repository": "https://github.com/alexanderGugel/kiss-angular-seed",
+  "scripts": {
+    "start": "node server",
+    "watch-server": "nodemon server",
+    "watch": "npm run watch-css & npm run watch-server",
+    "dev": "npm run watch && open http://localhost:3141",
+    "build-css": "stylus static/css/main.sty",
+    "watch-css": "stylus -w static/css/main.styl"
+  },
   "devDependencies": {
-    "karma" : "~0.10",
-    "karma-phantomjs-launcher": "0.1.4"
+    "nodemon": "^1.2.1",
+    "stylus": "^0.49.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "express": "^4.10.2"
   }
 }
