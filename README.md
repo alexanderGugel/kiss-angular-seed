@@ -1,5 +1,5 @@
 # kiss-angular-seed
-*promoting bad **practices** in software engineering*
+promoting bad practices in software engineering
 
 ## What is this?
 
