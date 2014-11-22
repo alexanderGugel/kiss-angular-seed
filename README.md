@@ -19,7 +19,7 @@ This seed repo is convenient for simple weekend projects.
 ## Available npm scripts
 
 Everything more than a simple npm script would be an overkill.
-npm scripts can be run via `npm run **scriptname**`.
+npm scripts can be run via `npm run scriptname`.
 
 * `npm run build-css`
 * `npm run watch-css`
@@ -36,7 +36,7 @@ for development.
 A boilerplate for your next startup. If you need tests, this is not for you. And
 you should always write tests (of course).
 
-## Gettings started
+## Getting started
 
 `git clone https://github.com/alexanderGugel/kiss-angular-seed.git && cd kiss-angular-seed && npm i && npm run dev`
 
